@@ -8,7 +8,7 @@
 
 ### Analysis of Outcomes Based on Launch Date
     - We are viewing the outcomes of theater Kickstart campaigns based upon the month of the year the Kickstarter campaign was launched. We first created a pivot table using our data in the kickstarter worksheet from the dataset Louise provided us. Using that pivot table, we filtered the Parent Category to theater, used outcomes as the columns and launch date months as the rows. We then created a chart based upon our pivot table which displays the amount of successful Kickstart campaigns relative to the month they were launched in. That chart is included below
-    ![Theater_Outcomes_vs_Launch.png](resources/Theater_Outcomes_vs_Launch.png)
+    ![Theater_Outcomes_vs_Launch.png](https://github.com/mdbinger/kickstarter-analysis/blob/10a50b03ef8097fb05d7fc9c8efba914d1ddc47d/resources/Outcomes_vs_Goals.png)
 
 ### Analysis of Outcomes Based on Goals
     - We are viewing the outcomes of plays Kickstarter campaigns based upon the dollar amount the campaign's goals were set at. We were provided 12 ranges to sort the goals within. The first range was for goals less than $1,000, the next range was for goals between $1,000 - $4,999, then each new range started with the previous range's maximum threshold as the minumum and the maximum was $4,999 greater than the minimum. The last range was for any goal larger than $50,000. We then used COUNTIFS and SUM formulas to determine the number of Kickstarter campaigns for plays that were successful, failed, or canceled, then used the total of all Kickstarter campaigns for plays to determine percentages of the campaigns that were successful, failed, or canceled. We created a chart to represent the percentage data
