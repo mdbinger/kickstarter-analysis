@@ -2,22 +2,23 @@
 
 ## Overview of Project
 
-### Purpose: The Purpose of this project is analyze the outcomes of Kickstarter campaigns based upon the launch date and the goals. We are hoping to inform Louise of any trends from previous Kickstarter campaigns that might help guide her in how to best utilize Kickstarter campaigns in the future. We will be using features of Microsoft Excel, such as pivot tables, pivot charts, a variety of formulas, and table-editing features to complete this analysis.
+### Purpose
+The Purpose of this project is analyze the outcomes of Kickstarter campaigns based upon the launch date and the goals. We are hoping to inform Louise of any trends from previous Kickstarter campaigns that might help guide her in how to best utilize Kickstarter campaigns in the future. We will be using features of Microsoft Excel, such as pivot tables, pivot charts, a variety of formulas, and table-editing features to complete this analysis.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-    - We are viewing the outcomes of theater Kickstart campaigns based upon the month of the year the Kickstarter campaign was launched. We first created a pivot table using our data in the kickstarter worksheet from the dataset Louise provided us. Using that pivot table, we filtered the Parent Category to theater, used outcomes as the columns and launch date months as the rows. We then created a chart based upon our pivot table which displays the amount of successful Kickstart campaigns relative to the month they were launched in. That chart is included below
+We are viewing the outcomes of theater Kickstart campaigns based upon the month of the year the Kickstarter campaign was launched. We first created a pivot table using our data in the kickstarter worksheet from the dataset Louise provided us. Using that pivot table, we filtered the Parent Category to theater, used outcomes as the columns and launch date months as the rows. We then created a chart based upon our pivot table which displays the amount of successful Kickstart campaigns relative to the month they were launched in. That chart is included below
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/96350388/147893802-1b126bc6-d480-4980-bbd0-ca4491bfef82.png)
 
 ### Analysis of Outcomes Based on Goals
-    - We are viewing the outcomes of plays Kickstarter campaigns based upon the dollar amount the campaign's goals were set at. We were provided 12 ranges to sort the goals within. The first range was for goals less than $1,000, the next range was for goals between $1,000 - $4,999, then each new range started with the previous range's maximum threshold as the minumum and the maximum was $4,999 greater than the minimum. The last range was for any goal larger than $50,000. We then used COUNTIFS and SUM formulas to determine the number of Kickstarter campaigns for plays that were successful, failed, or canceled, then used the total of all Kickstarter campaigns for plays to determine percentages of the campaigns that were successful, failed, or canceled. We created a chart to represent the percentage data
+We are viewing the outcomes of plays Kickstarter campaigns based upon the dollar amount the campaign's goals were set at. We were provided 12 ranges to sort the goals within. The first range was for goals less than $1,000, the next range was for goals between $1,000 - $4,999, then each new range started with the previous range's maximum threshold as the minumum and the maximum was $4,999 greater than the minimum. The last range was for any goal larger than $50,000. We then used COUNTIFS and SUM formulas to determine the number of Kickstarter campaigns for plays that were successful, failed, or canceled, then used the total of all Kickstarter campaigns for plays to determine percentages of the campaigns that were successful, failed, or canceled. We created a chart to represent the percentage data
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/96350388/147893792-ebed19e6-921b-4a26-9a0f-fa355eb1a61f.png)
 
 ### Challenges and Difficulties Encountered
-    - When creating the pivot table to analyze the Outcomes Based on Launch Date portion of this assignment, it took a few tries moving around variables on the chart to find everything's proper placement
-    - For the Outcomes Based on Goals section, I first was under the impression I had not entered my formulas correctly for canceled data, as it was showing up as 0 for all entries. I verfied by filtering the actual dataset and comparing my work to the chart shown in the Challenge 1 Assignment
-    - Quite frankly, this is my first time ever using github and I am nervous about every button I click on there hoping to ensure this Challenge is uploaded correctly
+   - When creating the pivot table to analyze the Outcomes Based on Launch Date portion of this assignment, it took a few tries moving around variables on the chart to find everything's proper placement
+   - For the Outcomes Based on Goals section, I first was under the impression I had not entered my formulas correctly for canceled data, as it was showing up as 0 for all entries. I verfied by filtering the actual dataset and comparing my work to the chart shown in the Challenge 1 Assignment
+   - Quite frankly, this is my first time ever using github and I am nervous about every button I click on there hoping to ensure this Challenge is uploaded correctly
 
 ## Results
 
